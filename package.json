@@ -1,0 +1,20 @@
+{
+  "name": "pdf-to-feed",
+  "author": "Anton Ratiy",
+  "version": "1.0.0",
+  "scripts": {
+    "restart": "node dist/index.js",
+    "babel": "babel src/ -d dist/",
+    "flow": "flow",
+    "start": "flow && babel src/ -d dist/ && node dist/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.59.0",
+    "flow-remove-types": "^1.2.3",
+    "pdfjs-dist": "^2.0.169"
+  },
+  "dependencies": {}
+}
